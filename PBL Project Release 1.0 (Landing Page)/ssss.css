@@ -1,0 +1,39 @@
+.resultBox ul { 
+    
+    padding : 15px 10px ;
+    
+
+}
+.resultBox ul li {
+    display: flex;
+    box-sizing: border-box;
+    width: 650px;
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+    color: white;
+
+}
+.resultBox ul li:hover{
+    background: gray;
+}
+
+.name{
+    padding-left: 1rem;
+padding-right: 1rem; 
+margin-bottom: 3rem; 
+width: 100%; 
+
+
+@media (min-width: 768px) { 
+  width: 20%; 
+ }
+@media (min-width: 1024px) { 
+  margin-bottom: 0; 
+width: 20%; 
+ }
+
+
+
+}
