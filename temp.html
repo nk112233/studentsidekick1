@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <title>Student's Sidekick</title>
+</head>
+
+<body class="text-gray-800 antialiased">
+  <nav class="  top-0 absolute z-50 w-full flex  items-center justify-between  bg-black ">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+            <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white hover:text-gray-400"
+                href="">Student's
+                Sidekick</a><button
+                class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                type="button" onclick="toggleNavbar('example-collapse-navbar')">
+                <i class="text-white fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+            id="example-collapse-navbar">
+            <ul class="flex flex-col lg:flex-row list-none mr-auto">
+            </ul>
+            <ul
+                class="flex flex-col lg:flex-row list-none lg:ml-auto md:flex px-4 mr-10 font-semibold font-heading space-x-12">
+                <li class="flex items-center m-2 font-bold text-white p-4">
+                    <a href="http://127.0.0.1:5501/landing.html"
+                        class=" bg-white md:bg-transparent text-white block pl-3 pr-4 py-2 font-bold md:p-0 rounded hover:text-blue-500 transition-colors cursor-pointer">Home</a>
+                </li>
+                <li class="flex items-center m-2 font-bold text-white p-4">
+                    <a href=" "
+                        class="bg-white md:bg-transparent text-white block pl-3 pr-4 py-2 font-bold md:p-0 rounded hover:text-blue-500 transition-colors cursor-pointer">About</a>
+                </li>
+                <li class="flex items-center m-2  text-white p-4">
+                    <a href=" "
+                        class=" bg-white md:bg-transparent text-white block pl-3 pr-4 py-2 font-bold md:p-0 rounded hover:text-blue-500 transition-colors cursor-pointer">Contact
+                        Us</a>
+                </li>
+                <li class="flex items-center m-2 font-bold text-white p-4 ">
+                    <a href="http://localhost/pbl/cp.php"
+                        class="bg-white md:bg-transparent text-white block pl-3 pr-4 py-2 font-bold md:p-0 rounded hover:text-blue-500 transition-colors cursor-pointer"
+                        aria-current="page">College Predictor</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <!-- <nav id = "1" class=" sticky top-0 absolute z-50 w-full  items-center justify-between px-2 py-3 bg-black "> -->
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+          href="">Student's
+          Sidekick</a><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar">
+        <ul class="flex flex-col lg:flex-row list-none mr-auto">
+        </ul>
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <li class="flex items-center m-2 font-bold text-white p-4">
+            Home
+          </li>
+          <li class="flex items-center m-2 font-bold text-white p-4">
+            About
+          </li>
+          <li class="flex items-center m-2 font-bold text-white p-4">
+            Contact Us
+          </li>
+          <li class="flex items-center m-2 font-bold text-white p-4 ">
+            Blog
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="bg-slate-200">
+    <div class=" relative pt-10  flex content-center items-center justify-center" >
+    
+    
+      
+        <!-- Section: Design Block -->
+        <section class=" mx-20 mb-10 text-center bg-white w-full">
+     <!-- Single article -->
+     <div class="  ">
+    
+        <div class=" mb-8  flex flex-wrap " >
+          <img src="pict.jpg" class=" max-h-52 w-full" />
+          <a href="#!">
+            
+            <div
+              class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="bg-white flex flex-wrap w-40 h-40 float-left  ">
+        <img class="w-28 h-28  " src="pic.jpg" alt="">
+      </div>
+
+        <div class="float-left mt-4">
+        <h5 class="mb-3 text-4xl font-bold ">
+          Pune Institute Of Computer Technology
+        </h5>
+        
+        <span class="ilp-loc "> <i style='font-size:15px' class='fas'>&#xf3c5;</i><span class=""> Pune Satara Road,Pune</span></span>
+    </div>
+        
+        
+      </div>
+    </div>
+    <nav
+    class="relative flex  items-center justify-between bg-white py-2 text-blue-600 font-bold   shadow-lg  md:flex-wrap md:justify-start mx-20 mb-10 text-xl "
+    data-te-navbar-ref>
+    <div class="flex w-full flex-wrap items-center justify-between px-3">
+      <div class="flex items-center">
+        <!-- Hamburger menu button -->
+        <button
+          class="border-0 bg-transparent px-2 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden"
+          type="button"
+          data-te-collapse-init
+          data-te-target="#navbarSupportedContentY"
+          aria-controls="navbarSupportedContentY"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <!-- Hamburger menu icon -->
+          <span class="[&>svg]:w-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-7 w-7">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </span>
+        </button>
+      </div>
+
+      <!-- Navigation links -->
+      <div
+        class="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto"
+        id="navbarSupportedContentY"
+        data-te-collapse-item>
+        <ul
+          class="mr-auto flex flex-col lg:flex-row"
+          data-te-navbar-nav-ref>
+          <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <a
+              class="block transition duration-150 ease-in-out hover:text-red-400  disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+              href="#p1"
+              data-te-nav-link-ref
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              >College Info</a
+            >
+          </li>
+          <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <a
+              class="block transition duration-150 ease-in-out hover:text-red-400  disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+              href="#p2"
+              data-te-nav-link-ref
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              >Courses And Fees </a
+            >
+          </li>
+          <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <a
+              class="block transition duration-150 ease-in-out hover:text-red-400  disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+              href="#p3"
+              data-te-nav-link-ref
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              >Placements</a
+            >
+          </li>
+          <li class="mb-2 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <a
+              class="block transition duration-150 ease-in-out hover:text-red-400  disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+              href="#p4"
+              data-te-nav-link-ref
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              >Cutoffs</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class = "mx-20 bg-white my-10 text-5xl">
+    <h2  class = "px-6 pt-8 text-4xl font-bold text-blue-500 "id = "p1">College Info</h2>
+    <hr class="h-px my-8 bg-gray-700 border-0">
+    <p class = "px-8 text-2xl font-bold ">Pune Institute of Computer Technology, Society for Computer Technology and Research is a premier Institute, established in 1983. It is located in Pune, Maharashtra. The span of programs offered 15 courses include Degree in Full Time mode. Pune Institute of Computer Technology, Society for Computer Technology and Research offers a range of 7 UG courses. These courses are aimed to provide students with the necessary skills and knowledge in their field of interest. The private institute has been accredited with Grade B+ by NAAC. Candidate can pursue in multiple range of courses like Ph.D., M.E./M.Tech, B.E. / B.Tech with the stream of Engineering. From introductory courses to more advanced topics, there are a variety of courses to choose from. Students who join Pune Institute of Computer Technology, Society for Computer Technology and Research stand to gain professional level of expertize and proficiency through its highly trained & experienced faculty in the studies of Computer Science Engineering, Electronics Engineering, Information Technology, Electronics & Communication Engineering. Courses offered by institute are well recognized and acknowlegded by approving body like AICTE. Institute offers this course with intake of 1021 candidates. Most of these courses are offerred at very affordable fees. For students institute has facilities & infrastructure like Auditorium, Boys Hostel, Cafeteria, Dance Room, Girls Hostel, Gym, Hospital / Medical Facilities, Hostel, Labs, Library, Music, Room, Sports Complex, Wi-Fi Campus, Others - Tutorial Rooms, Seminar Halls, Amphitheater. Separate in-campus hostel for boys and girls with capacity of 200 students, Boys and girls hostel have capacity of 35 and 63 rooms respectively Hostel seats will be allotted on First-cum-first served basis</p>
+    <br><br>
+    
+  </div>
+  <div class = "mx-20 bg-white my-10 text-5xl">
+    <h2  class = "  px-6 pt-8 text-4xl font-bold text-blue-500 "id = "p2">Courses And Fees</h2>
+    <hr class="h-px my-8 bg-gray-700 border-0">
+    <table class=" mx-8 shadow-lg text-4xl bg-white border-collapse ">
+      <tr class = "text-white">
+      <th class="bg-slate-800 border text-left px-8 py-4" >Courses</th>
+      <th class="bg-slate-800 border text-left px-8 py-4" >Total Seats</th>
+      <th class="bg-slate-800 border text-left px-8 py-4" >Total Fees</th>
+      <th class="bg-slate-800 border text-left px-8 py-4" >Exam</th>
+    </tr>
+    <tr>
+      <td class="border px-8 py-4" >B.E. in Computer Engineering</td>
+      <td class="border px-8 py-4" >240</td>
+      <td class="border px-8 py-4" >₹3.26 L</td>
+      <td class="border px-8 py-4" >MHT CET , JEE Main</td>
+    </tr>
+    <tr>
+      <td class="border px-8 py-4" >B.E. in Information Technology</td>
+      <td class="border px-8 py-4" >180</td>
+      <td class="border px-8 py-4" >₹3.26 L</td>
+      <td class="border px-8 py-4" >MHT CET , JEE Main</td>
+    </tr>
+    <tr>
+      <td class="border px-8 py-4" >B.E. in Electronics and Telecommunication Engineering</td>
+      <td class="border px-8 py-4" >240</td>
+      <td class="border px-8 py-4" >₹3.26 L</td>
+      <td class="border px-8 py-4" >MHT CET , JEE Main</td>
+    </tr>
+    </table>
+    <p class = "px-8 text-xl font-bold"></p>
+    <br><br>
+    
+  </div>
+  <div class = "mx-20 bg-white my-10 text-5xl  ">
+    
+    <h2  class = "  px-6 pt-8 text-4xl font-bold text-blue-500 "id = "p3">Placements</h2>
+    <hr class="h-px my-8 bg-gray-700 border-0">
+    <p class = "px-8 text-2xl font-bold">
+      PICT Pune provides ample placement opportunities to the students. The college has a dedicated Training and placement Cell working for the students. Pre- Placement talks are conducted for the students prior to the placement session every year. The Cell has adequate infrastructure to conduct all the activities. With over 64+ industry tie ups PICT provides an ocean of job opportunities to the students. <br><br>
+
+For the academic year 2018-19 around 82.88% students were placed in well-off companies. The average salary package was 7.75 LPA.<br><br>
+
+The top recruiters are listed below:<br><br>
+<ul  class = "px-8 text-2xl font-bold"style="list-style-type:circle;">
+  <li>AVAYA</li>
+  <li>Barclays</li>
+  <li>Deutsche Bank</li>
+  <li>Siemens</li>
+  <li>PhonePe</li>
+  <li>Mastercard </li>
+  <li>BYJU’S</li>
+  <li>Goldman Sachs</li>
+  <li>UBS</li>
+
+</ul>
+  
+  </p>
+
+
+    <hr class="h-px my-4 bg-gray-700 border-0">
+    <span class = "text-green-500 font-bold text-3xl "> Highest Package : ₹9,100,000 </span><br>  
+    
+    <hr class="h-px my-4 bg-gray-700 border-0">
+    <span class = "text-green-500 font-bold text-3xl"> Average Package : ₹775,000</span><br> 
+    
+    <hr class="h-px my-4 bg-gray-700 border-0">
+  
+  
+  
+
+
+
+
+    <br><br>
+    
+  </div>
+  <div class = "mx-20 bg-white my-10 text-5xl">
+    <h2  class = "  px-6 pt-8 text-4xl font-bold text-blue-500 "id = "p4">PICT, MHT-CET Cutoff 2022</h2>
+    <hr class="h-px my-8 bg-gray-700 border-0">
+    <table class=" mx-8 shadow-lg text-4xl bg-white border-collapse ">
+      <tr class = "">
+      
+      <th class="bg-slate-200 border text-left px-8 py-4" >Courses</th>
+      <th class="bg-slate-200 border text-left px-8 py-4" >Cutoffs By Rank</th>
+      
+    </tr>
+    <tr>
+      <td class="border px-8 py-4" >B.E. in Computer Engineering</td>
+      <td class="border px-8 py-4" >727</td>
+      
+    </tr>
+    <tr>
+      <td class="border px-8 py-4" >B.E. in Information Technology</td>
+      <td class="border px-8 py-4" >1332</td>
+      
+    </tr>
+    <tr>
+      <td class="border px-8 py-4" >B.E. in Electronics and Telecommunication Engineering</td>
+      <td class="border px-8 py-4" >2603</td>
+      
+    </tr>
+    </table>
+    
+    <br><br>
+    
+  </div>
+  </section>
+  <div class = "mx-20 bg-white my-10 text-5xl ">
+    <h2  class = "  px-6 pt-8 text-4xl font-bold text-blue-500 "id = "p4">Videos and Links</h2>
+    <hr class="h-px my-8 bg-gray-700 border-0">
+    <iframe  class = "ml-72"width="560" height="315" src="https://www.youtube.com/embed/uoD8z7KiyHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  </div>
+  
+    </main>
+    
+    </main>
+  </main>
+  <footer class=" bg-gray-300 pt-8 pb-6">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+            version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+    </div>
+    <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4">
+                <h4 class="text-3xl font-semibold">Social Links</h4>
+
+                <div class="mt-6">
+                    <button
+                        class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                        type="button">
+                        <i class="flex fab fa-twitter"></i></button><button
+                        class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                        type="button">
+                        <i class="flex fab fa-facebook-square"></i></button><button
+                        class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                        type="button">
+                        <i class="flex fab fa-dribbble"></i></button><button
+                        class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                        type="button">
+                        <a href="https://github.com/nk112233/Studentsidekick.git"><i class="flex fab fa-github"></i></a>
+                    </button>
+                </div>
+            </div>
+            <div class="w-full lg:w-6/12 px-4">
+                <div class="flex flex-wrap items-top mb-6">
+                    <div class="w-full lg:w-4/12 px-4 ml-auto">
+                        <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                                    href="">About Us</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                                    href="http://localhost/pbl/cp.php">College Predictor</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                                    href="">Github</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div class="flex flex-wrap items-center md:justify-between justify-center">
+            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                <div class="text-sm text-gray-600 font-semibold py-1">
+                    Copyright © 2023 Student's Sidekick
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+
+</html>
